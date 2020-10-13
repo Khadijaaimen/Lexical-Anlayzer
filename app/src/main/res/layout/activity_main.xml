@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:padding="10dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lexical Analyzer"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp">
+    <Button
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/button1"
+        android:textColor="@android:color/white"
+        android:id="@+id/source_code"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Source Code"
+        />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+        android:padding="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/button2"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parser"
+        android:id="@+id/parser"/>
+
+        <TextView
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+        android:padding="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/button3"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Output"
+        android:id="@+id/output"/>
+
+
+
+        <TextView
+            android:layout_marginTop="100dp"
+            android:id="@+id/err1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="5dp"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15dp" >
+
+        </TextView>
+
+        <TextView
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:id="@+id/err2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:id="@+id/err3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
